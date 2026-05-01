@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | Ajay Yadav</title>
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e4e4e7;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .error-container {
+            max-width: 600px;
+            padding: 40px 20px;
+        }
+        
+        .error-code {
+            font-size: 8rem;
+            font-weight: bold;
+            color: #10b981;
+            margin-bottom: 20px;
+            text-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+        }
+        
+        .error-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #e4e4e7;
+        }
+        
+        .error-message {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            color: #94a3b8;
+            line-height: 1.6;
+        }
+        
+        .home-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .home-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.4);
+        }
+        
+        @media (max-width: 768px) {
+            .error-code {
+                font-size: 4rem;
+            }
+            
+            .error-title {
+                font-size: 1.5rem;
+            }
+            
+            .error-message {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-code">404</div>
+        <h1 class="error-title">Page Not Found</h1>
+        <p class="error-message">
+            Oops! The page you're looking for doesn't exist. 
+            It might have been moved, deleted, or you entered the wrong URL.
+        </p>
+        <a href="/" class="home-button">Return to Home</a>
+    </div>
+</body>
+</html>
